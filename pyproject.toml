@@ -19,7 +19,19 @@ requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.3"
+coverage = {extras = ["toml"], version = "^5.5"}
+pytest-cov = "^2.11.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["tutompy"]
+
+[tool.coverage.report]
+show_missing = true
