@@ -2,7 +2,7 @@
 import click.testing
 import pytest
 
-from hypermodern_python import console
+from tutompy import console
 
 
 @pytest.fixture
