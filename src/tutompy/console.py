@@ -1,4 +1,4 @@
-#src/tutompy/console.py
+# src/tutompy/console.py
 
 import textwrap
 
