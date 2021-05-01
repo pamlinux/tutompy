@@ -1,6 +1,8 @@
 # .flake8
 [flake8]
-select = BLK,C,E,F,W
+import-order-style = google
+application-import-names = tutompy,tests
+select = BLK,C,E,F,I,W
 ignore = E203,W503
 max-line-length = 88
 
