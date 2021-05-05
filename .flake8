@@ -3,7 +3,7 @@
 per-file-ignores = tests/*:S101
 import-order-style = google
 application-import-names = tutompy,tests
-select = ANN,B,B9,BLK,C,E,F,I,S,W
+select = ANN,B,B9,BLK,C,D,DAR,E,F,I,S,W
 docstring-convention = google
-ignore = E203,E501,W503
+ignore = E203,E501,W503,DAR003
 max-line-length = 80
