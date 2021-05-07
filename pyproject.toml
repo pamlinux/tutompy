@@ -8,6 +8,7 @@ readme = "README.md"
 homepage = "https://github.com/pamlinux/tutompy"
 repository = "https://github.com/pamlinux/tutompy"
 keywords = ["hypermodern"]
+documentation = "https://tutompy.readthedocs.io"
 
 [tool.poetry.scripts]
 tutompy = "tutompy.console:main"
