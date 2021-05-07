@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tutompy"
-version = "0.1.0"
+version = "1.0.0"
 description = "The hypermodern Python project"
 authors = ["Pierre-Alain Moret <moret.pierre.alain@gmail.com>"]
 license = "MIT"
